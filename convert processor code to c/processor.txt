@@ -1,0 +1,14 @@
+int main()
+{
+    $dec(A, 9, int);
+    $dec(B, 10, int);
+    $dec(C, 10, int);
+    $read(f1, A);
+    $print(A);
+    $A = $B;
+    $B = 5;
+    $C = $A + $B;
+    $C = 2 * $B;
+    $C = $A / 5;
+    $print(C);
+}
